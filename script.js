@@ -1,5 +1,5 @@
 document.querySelector('.menu-btn').addEventListener('click', ()=>{
-    document.querySelector('.menu-navegacion').classList.toggle('show');
+    document.querySelector('.menu-nav').classList.toggle('show');
 });
 
 ScrollReveal().reveal('.inicio');

@@ -398,8 +398,22 @@ body{
     .nosotras{
         grid-template-columns: repeat(2, 1fr);}
     .links{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
+    .contacto img{
+      width: 50%;
+
+    }
+    .RONDA h6{
+      background-color: rgba(195, 232, 236, 0.587);
+      width: 250px;
+      border: 6px solid #45403b;
+      padding: 10px;
+      margin: 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 150%;
+      opacity: 80%;
+  }
 }
 
 @media (max-widht: 480px){
