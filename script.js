@@ -1,3 +1,7 @@
+document.querySelector('.menu-btn').addEventListener('click', ()=>{
+    document.querySelector('.menu-navegacion').classList.toggle('show');
+});
+
 ScrollReveal().reveal('.inicio');
 ScrollReveal().reveal('.modelodecaja', {delay:250});
 ScrollReveal().reveal('.nuestrosvalores', {delay: 500}) ;
