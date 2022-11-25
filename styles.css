@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box ;
-    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 0;
 }
 
@@ -8,9 +9,58 @@
     width: 75px;
   }
 
+a{
+  color: rgb(65, 61, 61);
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+#contenedor{
+  width: 90%;
+  margin: auto;
+}
+
+.menu-navegacion{
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.logo{
+  width: 60px;
+}
+
+.menu-navegacion ul{
+  display: flex;
+}
+
+.menu-navegacion ul li{
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.menu-navegacion ul.menu-nav{
+  flex: 1;
+  margin-left: 10px;
+}
+
+.menu-navegacion ul li a{
+  padding: 6px;
+}
+
+.menu-navegacion ul li a:hover{
+  border-bottom: 2px solid rgb(65, 61, 61);
+}
 
 
-header {
+/*header {
     z-index: 2;
     position: sticky;
     list-style-type: none;
@@ -89,7 +139,7 @@ body{
     opacity: 80%;
 }
 
-  h1 {
+  .RONDA h1 {
     color: white;
     text-align: center;
     font-family: 'Comfortaa', cursive;
@@ -134,6 +184,16 @@ body{
     font-family: "Open Sans", sans-serif;
 }*/
 
+
+.container h1{
+  color: white;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 300%;
+  border-top: 100px;
+  background-color: rgba(61, 79, 74, 0.373);
+  opacity: calc(70%);
+}
 #modelodecaja {
     background-image: url(./Diseño\ sin\ título.png);
     width: 500px;
@@ -171,6 +231,15 @@ body{
 }
 
 /*QUIENES SOMOS */
+.letrasnuestras{
+  color: white;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 300%;
+  border-top: 100px;
+  background-color: rgba(61, 79, 74, 0.373);
+  opacity: calc(70%);
+}
 .nosotras{
     display: grid;
     grid-template-columns:repeat(5, 1fr);
@@ -199,9 +268,9 @@ body{
 
 
 .contacto img{
-    width: 50%;
+    width: 40%;
     height: 100px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
@@ -219,6 +288,15 @@ body{
 
 }
 
+.contactanos{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 300%;
+    border-top: 100px;
+    background-color: rgba(61, 79, 74, 0.373);
+    opacity: calc(70%);
+}
 
 .temporizador{
     display:flex;
@@ -234,10 +312,23 @@ body{
     border-top: 100px;
     background-color: rgba(61, 79, 74, 0.373);
     opacity: calc(70%);
+    justify-content: center;
 
 }
+
+.letras h3{
+  color: #45403b;
+  background-image: url(./Diseño\ sin\ título.png);
+    width: 100%;
+    border: 10px solid #45403b;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    opacity: 80%;
+}
 .temporizador .bloque{
-    margin: 0px 40px;
+    margin: 20px 40px 20px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,11 +339,11 @@ body{
     justify-content: center;
     background-color: azure;
     align-items: center;
-    box-shadow: 0px 0px 6px 2px #45403b inset;
+    box-shadow: 0px 0px 6px 4px #45403b inset;
     color: #45403b;
     font-size: 40px;
     font-weight: bold;
-    width: 100px;
+    width: 70px;
     height: 70px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -263,6 +354,8 @@ body{
     font-weight: bold;
     color: #45403b;
 }
+
+
 
 
 @media  (max-width: 700px){
@@ -294,5 +387,9 @@ body{
     }
     .links{
         grid-template-columns: repeat(2, 1fr);
+
+    }
+    .contacto img{
+      width: 50%;
     }
 }
