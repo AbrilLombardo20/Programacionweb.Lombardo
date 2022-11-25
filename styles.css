@@ -20,7 +20,7 @@ a{
   width: 50px;
   top: 15px;
   right: 10px;
-  
+  z-index: 2;
 
 }
 
@@ -40,6 +40,8 @@ ul{
   align-items: center;
   height: 60px;
   padding: 20px 0;
+ position: fixed;
+ background-color: rgb(140, 169, 172);
 }
 
 .logo{
@@ -180,19 +182,7 @@ body{
     opacity: 80%;
   }
 
- /* #direccion{
-    background-color: rgba(195, 232, 236, 0.3);
-    width: 280px;
-    border: 0px;
-    padding: 30px;
-    font-size: 140%;
-    margin-left: 1000px;
-    margin-top: 250px;
-    color: black;
-    text-align: center;
-    opacity: 80%;
-    font-family: "Open Sans", sans-serif;
-}*/
+ 
 
 
 .container h1{
